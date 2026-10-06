@@ -23,3 +23,20 @@ function Person(name, age) {
   this.age = age;
 }
 
+
+// learn about classes in js
+
+	class Person {
+constructor (name, age){
+this.name=name,
+this.age=age;
+}
+talk(){
+console.log(`HI, my name is ${this.name}`)
+ 
+  } 
+}
+
+let p1=new Person("adma", 25);
+let p2= new Person("eva", 37);
+
