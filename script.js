@@ -143,8 +143,6 @@
 // car1.showDetails();
 // car2.showDetails();
 
-
-
 // let Car = function(brand){
 //   this.brand = brand;
 
@@ -155,3 +153,45 @@
 
 // let car1 = new Car("BMW");
 // car1.showDetails();
+
+// function Student(name) {
+//   this.name = name;
+// }
+
+// Student.prototype.sayHello = function () {
+//   console.log("Hello " + this.name);
+// };
+
+// let s1 = new Student("Raquib");
+// let s2 = new Student("Aman");
+
+// s1.sayHello();
+// s2.sayHello();
+
+// class Car {
+//   constructor(brand) {
+//     this.brand = brand;
+//   }
+// }
+
+// let car1 = new Car("BMW");
+
+// let car2 = new Car("AUDI");
+
+// console.log(car1.brand);
+// console.log(car2.brand);
+
+// class Student {
+//   constructor(name) {
+//     this.name = name;
+//   }
+//   introduce() {
+//     console.log(`My name is ${this.name}`);
+//   }
+// }
+
+// let student1 = new Student("John");
+// let student2 = new Student("Jane");
+// student1.introduce();
+// student2.introduce();
+// console.log(student1.introduce===student2.introduce);//true
