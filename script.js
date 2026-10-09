@@ -63,12 +63,7 @@
 // let p1 = new Person("adma", 25);
 // let p2 = new Person("eva", 37);
 
-
-
-
 // Learn about "Inheritance".......................
-
-
 
 // i eg =>
 // class Person {
@@ -130,3 +125,33 @@
 
 // let d = new Dog("buddy");
 // let c = new cat("whiskers");
+
+// let Car = function (brand, model, price) {
+//   this.brand = brand;
+//   this.model = model;
+//   this.price = price;
+
+//   this.showDetails = function () {
+//     console.log(
+//       `car brand is ${this.brand} and  modeld is ${this.model} and price is ${this.price}`,
+//     );
+//   };
+// };
+
+// let car1 = new Car("BMW", "XS", 5000000);
+// let car2 = new Car("XUV", "700", 3000000);
+// car1.showDetails();
+// car2.showDetails();
+
+
+
+// let Car = function(brand){
+//   this.brand = brand;
+
+//   this.showDetails = function () {
+//     console.log(this.brand);
+//   }
+// };
+
+// let car1 = new Car("BMW");
+// car1.showDetails();
