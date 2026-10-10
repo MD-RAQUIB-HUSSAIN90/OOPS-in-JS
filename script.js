@@ -228,3 +228,55 @@
 
 // let animal= new Animal();
 // animal.sound();
+
+// class User {
+//   #password = 12344;
+//   showPassword() {
+//     console.log(this.#password);
+//   }
+// }
+
+// let user1 = new User();
+
+// user1.showPassword();
+// user1.#password; //
+
+// class A {
+//   show() {
+//     console.log("dekha de bhai");
+//   }
+// }
+
+// class B extends A {
+//   show() {
+//     console.log("kaa dikhayega gandu");
+//   }
+// }
+
+// let a = new B();
+// a.show();
+
+// class Car {
+//   static start() {
+//     console.log("saterted");
+//   }
+// }
+
+// Car.start();
+
+// class Car {
+//   start() {
+//     console.log("started");
+//   }
+// }
+// Car.start();
+
+// class Mobile {
+//   #price = 10000;
+//   showPrice() {
+//     console.log(this.#price);
+//   }
+// }
+
+// let mobile1 = new Mobile();
+// mobile1.showPrice();
