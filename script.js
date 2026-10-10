@@ -195,3 +195,36 @@
 // student1.introduce();
 // student2.introduce();
 // console.log(student1.introduce===student2.introduce);//true
+
+// class Vehicle {
+//   start() {
+//     console.log(`Vehicle is starting`);
+//   }
+// }
+
+// class Bike extends Vehicle {
+//   start() {
+//     console.log(`Bike is starting`);
+//   }
+// }
+
+// let bike1 = new Bike();
+// bike1.start();
+
+// class Animal {
+//   sound() {
+//     console.log(`Animal sound`);
+//   }
+// }
+
+// class Cat extends Animal {
+//   sound() {
+//     console.log(`Meow!`);
+//   }
+// }
+
+// let cat1 = new Cat();
+// cat1.sound();
+
+// let animal= new Animal();
+// animal.sound();
